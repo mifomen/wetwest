@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	
+<header class="page-header">
+<span class="page-header__title">Wetwest</span>
+<b>placerat <br> <span class="page-header__telephone">+00 (123) 456 7890</span></b>
+<b>lobortis: <br><span class="page-header__telephone">+00 (123) 456 7890</span></b>
+</header>
+<nav>
+ <ul class="main-nav">
+ <li><a href="#">home</a></li>
+ <li id="marker"><a href="#">pages</a>
+ <ul class="sub-menu__level_two">
+  <li><a href="#">Gallery</a></li>
+  <li><a href="#">Full Width</a></li>
+  <li><a href="#">Sidebar Left</a></li>
+  <li><a href="#">Sidebar Right</a></li>
+  <li><a href="#">Basic Grid</a></li>
+ </ul>
+ </li>
+ <li id="marker"><a href="#">dropdown</a>
+  <ul class="sub-menu__level_two">
+  <li><a href="#">Level 2</a></li>
+  <li id="marker"><a href="#">Level 2 + Drop</a>
+   <ul class="sub-menu__level_three">
+    <li><a href="#">Level 3</a></li>
+    <li><a href="#">Level 3</a></li>
+    <li><a href="#">Level 3</a></li>
+   </ul>
+   </li>
+  <li><a href="#">Level 2</a></li>
+ </ul>
+</li>
+ <li><a href="#">link text</a></li>
+ <li><a href="#">link text</a></li>
+ <li><a href="#">long link text</a></li>
+</ul>
+</nav>
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> 
 </body>
 </html>
